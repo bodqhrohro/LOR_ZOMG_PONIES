@@ -1,0 +1,200 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("www.linux.org.ru") {
+ body{
+  background-color: #ffdfff !important;
+  background-image: url(http://www.freefever.com/stock/rainbow-dash-a-place-for-my-art-pictures-and-anything-else-pony.jpg) !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  color: #000 !important;
+ }
+ #hd, table.head, body > footer, #ft, .nav, #query, h1, h1 a,
+ #whois_userpic + div, #bd > ul, #bd > form, #bd > ol, #bd > h3,
+ body > a[href="/"]:after, .ui-menu-item, #user-menu{
+  background-color: rgba(255,255,255,0.7) !important;
+  color: #4f0f4f !important;
+  padding: 5px !important;
+ }
+ a:hover{
+  text-decoration: none !important;
+ }
+ a, .standardchange, .section-link{
+  color: #000040 !important;
+ }
+ h2, h3, h4, #whois_userpic{
+  background-color: transparent !important;
+  color: #000 !important;
+ }
+ .title{
+  background: transparent !important;
+  padding-left: 20px;
+ }
+ #hd, table.head{
+  border-bottom: 1px red solid;
+  margin-bottom: 5px;
+ }
+ #sitetitle{
+  font-size: 0em !important;
+  text-transform: none;
+  background: transparent !important;
+  color: #000;
+ }
+ #sitetitle:after{
+  display: block !important;
+  content: "PONY.ORG.RU";
+  margin-right: 20px;
+  font-size: 32px !important;
+  text-transform: none;
+  background: transparent !important;
+  color: #000 !important;
+ }
+ img[src*="/black/"]{
+  display: none;
+ }
+ table.head td, div.head, #loginGreating{
+  color: transparent;
+ }
+ body > a[href="/"]:after, table.head a[href="/"]:after{
+  display: block;
+  content: "PONY.ORG.RU";
+  font-size: 2em;
+  font-weight: bold !important;
+ }
+ .menu li a, #loginGreating a{
+  text-decoration: none !important;
+  font-size: 1em !important;
+ }
+ #sitetitle:hover,#loginGreating:hover,.menu li:hover, .menu a:hover, table.head a:hover{
+  background-color: #ccccff;
+  color: #000 !important;
+  border-radius: 4px;
+ }
+ #loginGreating a:before, .head a[href*="people"]:before{
+  content: "дружбомагии тебе, ";
+  font-size: 1em;
+ }
+ #main_events_count{
+  background-color: #ff6666;
+  border-radius: 15px;
+  height: 24px;
+  width: 24px;
+  color: white;
+  padding: 6px;
+ }
+ #main_events_count:empty{
+  display: none;
+ }
+ article, .boxlet, #counter_block, .infoblock, #nav-menu, #contents, #toc, #p-lang, #category-index{
+  background-color: rgba(255,255,255,0.9) !important;
+  border-top-color: white !important;
+  border-left-color: white !important;
+  border-radius: 5px !important;
+  border-right-color: #bbbbbb !important;
+  border-bottom-color: #bbbbbb !important;
+  padding: 5px 10px !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+ }
+ article h1, article h1 a{
+  background: transparent !important;
+ }
+ div.msg-top-header span{
+  background-color: #ffffdd;
+  color: transparent;
+ }
+ div.msg-top-header a{
+  color: #000 !important;
+  text-decoration: none !important;
+ }
+ div.msg-top-header a:nth-child(odd){
+  background-color: #ffdddd;
+ }
+ div.msg-top-header a:after, div.msg-top-header a:before{
+  max-width: 0;
+  max-height: 0;
+  display: inline-block;
+  content: "";
+  vertical-align: bottom;
+ }
+ div.msg-top-header a:nth-child(odd):after{
+  border-top: 11px solid #ffffdd;
+  border-bottom: 11px solid #ffffdd;
+  border-left: 11px solid #ffdddd;
+ }
+ div.msg-top-header a:nth-child(2n+3):before{
+  border-top: 11px solid #ffdddd;
+  border-bottom: 11px solid #ffdddd;
+  border-left: 11px solid #ffffdd;
+ }
+ .tags{
+  color: transparent !important;
+ }
+ .tag, .nav-buttons a, .tab-menu li{
+  background-color: #ffdddd !important;
+  color: #000 !important;
+  text-decoration: none !important;
+ }
+ .tag:nth-child(even), .nav-buttons li:nth-child(even) a, .tab-menu li:nth-child(even){
+  background-color: #ffffdd !important;
+ }
+ .message-table tbody, .btn-default, .ui-widget-content{
+  background-color: rgba(255,255,255,0.9) !important;
+  color: #000 !important;
+ }
+ .ui-widget-content, .ui-state-focus{
+  background-image: none !important;
+  border: 0px !important;
+ }
+ .ui-state-focus{
+  background-color: #ffffdd !important;
+ }
+ .message-table thead, .message-table tfoot{
+  background-color: #ffdddd !important;
+ }
+ .message-table tr:hover{
+  background-color: #ffddff !important;
+ }
+ .message-table td, .message-table th{
+  border-color: #000 !important;
+  color: #000 !important;
+ }
+ .page-number{
+  background-color: #ff6666 !important;
+  border-radius: 30px !important;
+  border: 0 !important;
+  padding: 5px !important;
+ }
+ a.page-number{
+  color: #ccffcc !important;
+ }
+ strong.page-number{
+  color: #ffffff !important;
+ }
+ span.page-number{
+  color: #ccccff !important;
+ }
+ .penguin_progress span {
+  background-repeat: repeat-x !important;
+  height: 19px !important;
+  background-image: url("data:image/gif;base64,R0lGODlhEAAQAOMCAFcRd1YVedMiOdY3MzRxr9pZKieTwzWepuJ/SmDBSGHCSWLDR5zXcfv7s//6tNMiOSwAAAAAEAAQAAAES1DISau9dOjN+yhgKI4FYp5oijRs676NI8907TB4ru9M4v/AYEJBLBqPioVyyWwuDtCodHowWK/YrIHA7Xq/BIB4TC4DAui0eh2IAAA7") !important;
+ }
+ .userpic img {
+  border-radius: 4px;
+ }
+ .code, pre{
+  background-color: #400040 !important;
+ }
+ code, pre{
+  color: #ffffdf !important;
+ }
+ .stars{
+  color: #60c0c0 !important;
+ }
+ .icon-tag{
+  color: #400040 !important;
+ }
+ #content-article div, #content-article p, #content-article ol,
+ #footer-logo, #footer-custom, .message, #items ol, #special, #login, #contents{
+  color: #000 !important;
+ }
+}
