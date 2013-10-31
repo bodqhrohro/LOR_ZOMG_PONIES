@@ -187,14 +187,14 @@
  code, pre{
   color: #ffffdf !important;
  }
- .stars{
-  color: #60c0c0 !important;
- }
- .icon-tag{
+ .icon-tag, .stars{
   color: #400040 !important;
  }
  #content-article div, #content-article p, #content-article ol,
  #footer-logo, #footer-custom, .message, #items ol, #special, #login, #contents{
   color: #000 !important;
+ }
+ .user-remark{
+  color: #400000 !important;
  }
 }
