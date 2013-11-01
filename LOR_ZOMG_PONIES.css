@@ -38,9 +38,10 @@
   text-transform: none;
   background: transparent !important;
   color: #000;
+  padding-left: 0px !important;
  }
  #sitetitle:after{
-  display: block !important;
+  display: inline-block !important;
   content: "PONY.ORG.RU";
   margin-right: 20px;
   font-size: 32px !important;
@@ -48,7 +49,7 @@
   background: transparent !important;
   color: #000 !important;
  }
- img[src*="/black/"]{
+ img[src*="/black/"], #hdtux{
   display: none;
  }
  table.head td, div.head, #loginGreating{
@@ -59,6 +60,16 @@
   content: "PONY.ORG.RU";
   font-size: 2em;
   font-weight: bold !important;
+ }
+ 
+ #sitetitle:before{
+  display: inline-block !important;
+  background: url(http://files.everypony.ru/smiles/twilight/114.gif) no-repeat !important;
+  background-size: 32px !important;
+  width: 32px !important;
+  height: 32px !important;
+  margin-right: 2px !important;
+  content: ""
  }
  .menu li a, #loginGreating a{
   text-decoration: none !important;
@@ -84,7 +95,7 @@
  #main_events_count:empty{
   display: none;
  }
- article, .boxlet, #counter_block, .infoblock, #nav-menu, #contents, #toc, #p-lang, #category-index, .messages .msg{
+ article, .boxlet, #counter_block, .infoblock, #nav-menu, #contents, #toc, #p-lang, #category-index, .messages .msg, #warning-text{
   background-color: rgba(255,255,255,0.9) !important;
   border-top-color: white !important;
   border-left-color: white !important;
@@ -196,5 +207,12 @@
  }
  .user-remark{
   color: #400000 !important;
+ }
+ #bd .btn-default {
+ background-color: #CCCCFF !important;
+ }
+ #bd .btn.btn-danger{
+ background-color: #400040 !important;
+ color: #FFFFFF !important;
  }
 }
