@@ -61,8 +61,11 @@
   font-size: 2em;
   font-weight: bold !important;
  }
+  table.head a[href="/"]:after{
+  display: inline-block !important;
+ }
  
- #sitetitle:before{
+ #sitetitle:before, table.head a[href="/"]:before{
   display: inline-block !important;
   background: url(http://files.everypony.ru/smiles/twilight/114.gif) no-repeat !important;
   background-size: 32px !important;
@@ -79,6 +82,9 @@
   background-color: #ccccff;
   color: #000 !important;
   border-radius: 4px;
+ }
+ table.head a[href="/"]:hover {
+ background-color: transparent !important;
  }
  #loginGreating a:before, .head a[href*="people"]:before{
   content: "дружбомагии тебе, ";
