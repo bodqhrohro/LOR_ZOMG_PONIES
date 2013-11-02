@@ -101,7 +101,7 @@
  #main_events_count:empty{
   display: none;
  }
- article, .boxlet, #counter_block, .infoblock, #nav-menu, #contents, #toc, #p-lang, #category-index, .messages .msg, #warning-text, #tag-page-forum{
+ article, .boxlet, #counter_block, .infoblock, #nav-menu, #contents, #toc, #p-lang, #category-index, .messages .msg, #warning-text, #tag-page-forum, fieldset, legend{
   background-color: rgba(255,255,255,0.9) !important;
   border-top-color: white !important;
   border-left-color: white !important;
