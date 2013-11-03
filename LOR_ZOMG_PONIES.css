@@ -15,6 +15,9 @@
   color: #4f0f4f !important;
   padding: 5px !important;
  }
+ #hd .menu, #sitetitle{
+ padding-top: 0em !important;
+ }
  a:hover{
   text-decoration: none !important;
  }
@@ -78,10 +81,15 @@
   text-decoration: none !important;
   font-size: 1em !important;
  }
- #sitetitle:hover,#loginGreating:hover,.menu li:hover, .menu a:hover, table.head a:hover{
+ #sitetitle:hover,.menu li:hover, .menu a:hover, table.head a:hover{
   background-color: #ccccff;
   color: #000 !important;
   border-radius: 4px;
+ }
+ #loginGreating:hover {
+ border-radius: 4px;
+ border-radius: 4px;
+ color: transparent !important;
  }
  table.head a[href="/"]:hover {
  background-color: transparent !important;
@@ -220,5 +228,48 @@
  #bd .btn.btn-danger{
  background-color: #400040 !important;
  color: #FFFFFF !important;
+ }
+ pre .shebang,pre .comment,pre .template_comment,pre .javadoc{
+ color: #DDDDDD !important
+ }
+ pre .keyword,pre .tag,pre .ruby .function .keyword, pre .function .keyword,pre .sub .keyword,pre .method,pre .list .title, pre .css .class{
+ color: #FE6464 !important;
+ }
+ pre .string,pre .attribute .value,pre .cdata,pre .filter .argument,pre .attr_selector,pre .apache .cbracket,pre .date {
+ color: #44F27D !important;
+ }
+ pre .function .title,pre .sub .identifier,pre .pi,pre .decorator,pre .ini .title{
+ color: #BDBDFF !important;
+ }
+ pre .class .title,pre .smalltalk .class,pre .javadoctag,pre .phpdoc, pre .css .rule .keyword,pre .css .id{
+ color:#8484FF !important;
+ }
+ pre .symbol,pre .number,pre .variable,pre .vbscript,pre .literal{
+ color: #A0F974 !important;
+ }
+ pre .subst{
+ color: #DACCFF !important;
+ }
+ pre .regexp{
+ color: #FFD28C !important;
+ }
+ pre .number{
+ color: #8AE183 !important;
+ }
+ pre .hexcolor{
+ color: #E0A8E0 !important;
+ }
+ pre .ruby .constant{
+ color: #F173CB !important;
+ }
+ pre .css .keyword{
+ color: #BEE015 !important;
+ }
+ .search-hl {
+ background-color: transparent !important;
+ }
+ .icon-comment {
+ color: #400040 !important;
+ font-size: 0.75em !important;
  }
 }
