@@ -120,6 +120,9 @@
   margin-top: 10px !important;
   margin-bottom: 10px !important;
  }
+ legend {
+ color: #000000 !important;
+ }
  article h1, article h1 a{
   background: transparent !important;
  }
