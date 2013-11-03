@@ -154,7 +154,7 @@
  .tags{
   color: transparent !important;
  }
- .tag, .nav-buttons a, .tab-menu li{
+ .tag, .nav-buttons a, .tab-menu li, .group-label{
   background-color: #ffdddd !important;
   color: #000 !important;
   text-decoration: none !important;
@@ -222,7 +222,7 @@
  .user-remark{
   color: #400000 !important;
  }
- #bd .btn-default {
+ #bd .btn-default, .tag-page-buttons a {
  background-color: #CCCCFF !important;
  }
  #bd .btn.btn-danger{
