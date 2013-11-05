@@ -120,6 +120,9 @@
   margin-top: 10px !important;
   margin-bottom: 10px !important;
  }
+ .messages .msg:target {
+  border-color: #400040 !important;
+ }
  legend {
  color: #000000 !important;
  }
