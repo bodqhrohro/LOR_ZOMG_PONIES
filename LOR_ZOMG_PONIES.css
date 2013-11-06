@@ -160,12 +160,12 @@
  .tags{
   color: transparent !important;
  }
- .tag, .nav-buttons a, .tab-menu li, .group-label{
+ a.tag, .nav-buttons a, .tab-menu li, .group-label{
   background-color: #ffdddd !important;
   color: #000 !important;
   text-decoration: none !important;
  }
- .tag:nth-child(even), .nav-buttons li:nth-child(even) a, .tab-menu li:nth-child(even){
+ a.tag:nth-child(even), .nav-buttons li:nth-child(even) a, .tab-menu li:nth-child(even){
   background-color: #ffffdd !important;
  }
  .message-table tbody, .btn-default, .ui-widget-content{
