@@ -279,12 +279,9 @@
  font-size: 0.75em !important;
  }
  #content-article table[border="1"] {
- color: #FFFFFF !important;
- background-color: #400040 !important;
- border-color: #bbbbbb !important;
- font-size: 1em !important;
+ background-color: transparent !important;
  }
  #content-article table[border="1"] th {
- background-color: #4083C6 !important;
+ background-color: #FFDDDD !important;
  }
 }
