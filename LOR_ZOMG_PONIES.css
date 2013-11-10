@@ -3,7 +3,7 @@
 @-moz-document domain("www.linux.org.ru") {
  body{
   background-color: #ffdfff !important;
-  background-image: url(http://www.freefever.com/stock/rainbow-dash-a-place-for-my-art-pictures-and-anything-else-pony.jpg) !important;
+  background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/background.jpg) !important;
   background-size: cover !important;
   background-attachment: fixed !important;
   color: #000 !important;
@@ -70,7 +70,7 @@
  
  #sitetitle:before, table.head a[href="/"]:before{
   display: inline-block !important;
-  background: url(http://files.everypony.ru/smiles/twilight/114.gif) no-repeat !important;
+  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/twilight_logo.gif) no-repeat !important;
   background-size: 32px !important;
   width: 32px !important;
   height: 32px !important;
@@ -210,7 +210,7 @@
  .penguin_progress span {
   background-repeat: repeat-x !important;
   height: 19px !important;
-  background-image: url("data:image/gif;base64,R0lGODlhEAAQAOMCAFcRd1YVedMiOdY3MzRxr9pZKieTwzWepuJ/SmDBSGHCSWLDR5zXcfv7s//6tNMiOSwAAAAAEAAQAAAES1DISau9dOjN+yhgKI4FYp5oijRs676NI8907TB4ru9M4v/AYEJBLBqPioVyyWwuDtCodHowWK/YrIHA7Xq/BIB4TC4DAui0eh2IAAA7") !important;
+  background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/rainbow.gif) !important;
  }
  .userpic img {
   border-radius: 4px;
