@@ -294,4 +294,13 @@
  padding-top: 292px !important;
  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;
  }
+ #ft:before{
+  display: inline-block !important;
+  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/derpy.gif) no-repeat !important;
+  background-size: 70px !important;
+  width: 70px !important;
+  height: 70px !important;
+  float: left !important;
+  content: ""
+  }
 }
