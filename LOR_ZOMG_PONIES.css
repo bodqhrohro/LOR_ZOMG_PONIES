@@ -287,4 +287,11 @@
  #content-article table[border="1"] th {
  background-color: #FFDDDD !important;
  }
+ img[src="/img/good-penguin.jpg"]{
+ width: 0px !important;
+ height: 0px !important;
+ padding-left: 280px !important;
+ padding-top: 292px !important;
+ background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;
+ }
 }
