@@ -231,8 +231,9 @@
  .user-remark{
   color: #400000 !important;
  }
- #bd .btn-default, .tag-page-buttons a {
+ #bd .btn-default, .tag-page-buttons a, .btn-primary {
  background-color: #CCCCFF !important;
+ border-color: #7777FF !important;
  }
  #bd .btn.btn-danger{
  background-color: #400040 !important;
