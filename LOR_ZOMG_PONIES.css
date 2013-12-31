@@ -234,6 +234,7 @@
  #bd .btn-default, .tag-page-buttons a, .btn-primary {
  background-color: #CCCCFF !important;
  border-color: #7777FF !important;
+ color: #000000 !important;
  }
  #bd .btn.btn-danger{
  background-color: #400040 !important;
