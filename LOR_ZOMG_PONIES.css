@@ -80,6 +80,7 @@
  .menu li a, #loginGreating a{
   text-decoration: none !important;
   font-size: 1em !important;
+  color: #000 !important;
  }
  #sitetitle:hover,.menu li:hover, .menu a:hover, table.head a:hover{
   background-color: #ccccff;
