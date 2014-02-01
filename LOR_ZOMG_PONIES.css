@@ -248,10 +248,8 @@
  .userpic img {
   border-radius: 4px;
  }
- .code, pre{
+ .code, pre, code{
   background-color: #400040 !important;
- }
- code, pre{
   color: #ffffdf !important;
  }
  .icon-tag, .stars{
