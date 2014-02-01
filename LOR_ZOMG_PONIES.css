@@ -18,6 +18,21 @@
  #hd .menu, #sitetitle{
  padding-top: 0em !important;
  }
+ #bd {
+ padding-left: 1em !important;
+ padding-right: 1em !important;
+ margin-left: 0em !important;
+ margin-right: 0em !important;
+ }
+ #navPath {
+    font-size: 1.5em !important;
+ }
+ #bd .nav li a {
+ font-size: smaller !important;
+ }
+ a {
+  text-decoration: underline;
+ }
  a:hover{
   text-decoration: none !important;
  }
@@ -88,8 +103,7 @@
   border-radius: 4px;
  }
  #loginGreating:hover {
- border-radius: 4px;
- border-radius: 4px;
+ border-radius: 4px !important;
  color: transparent !important;
  }
  table.head a[href="/"]:hover {
@@ -109,6 +123,24 @@
  }
  #main_events_count:empty{
   display: none;
+ }
+ .infoblock, .boxlet, .news {
+ border: 1px solid gray;
+  /* no !important there! */
+ border-top: 1px solid white !important;
+ }
+ #bd .news {
+ padding: 5px 10px !important;
+ margin-bottom: 1em !important;
+ }
+ .boxlet h2 {
+ text-align: left !important;
+ font-size: 1.5em !important;
+ margin-bottom: 0.25em !important;
+ }
+ .news h2 {
+ font-weight: bold !important;
+ font-size: 1.6em !important;
  }
  article, .boxlet, #counter_block, .infoblock, #nav-menu, #contents, #toc, #p-lang, #category-index, .messages .msg, #warning-text, #tag-page-forum, fieldset, legend, #wiki-footer, #tag-page-news{
   background-color: rgba(255,255,255,0.9) !important;
@@ -312,5 +344,7 @@
  body, h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif !important;
  }
- 
+ .sign {
+ margin-bottom: 0.5em !important;
+ }
 }
