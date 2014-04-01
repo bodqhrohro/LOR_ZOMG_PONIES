@@ -156,7 +156,7 @@
  .messages .msg:target {
   border-color: #400040 !important;
  }
- legend, .message-table a.secondary {
+ legend, .message-table a.secondary, span[itemprop="articleSection"] span, div.msg-top-header a + * {
  color: #000000 !important;
  }
  article h1, article h1 a{
@@ -248,9 +248,18 @@
  .userpic img {
   border-radius: 4px;
  }
- .code, pre, code{
+ .code, pre, code {
   background-color: #400040 !important;
   color: #ffffdf !important;
+ }
+ .code, pre {
+ border-radius: 5px !important;
+ }
+ pre a, code a, .code a{
+ color: #CCCCFF !important;
+ }
+ pre {
+ padding: 0.5em !important;
  }
  .icon-tag, .stars{
   color: #400040 !important;
