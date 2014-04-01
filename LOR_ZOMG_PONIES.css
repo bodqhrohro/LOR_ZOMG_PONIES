@@ -30,6 +30,11 @@
  #bd .nav li a {
  font-size: smaller !important;
  }
+ #user-menu {
+ padding-left: 0px !important;
+ padding-right: 0px !important;
+ border-radius: 3px !important;
+ }
  a {
   text-decoration: underline;
  }
@@ -156,7 +161,7 @@
  .messages .msg:target {
   border-color: #400040 !important;
  }
- legend, .message-table a.secondary, span[itemprop="articleSection"] span, div.msg-top-header a + * {
+ legend, .message-table a.secondary, span[itemprop="articleSection"] span {
  color: #000000 !important;
  }
  article h1, article h1 a{
@@ -323,7 +328,7 @@
  color: #400040 !important;
  font-size: 0.75em !important;
  }
- #content-article table[border="1"] {
+ #content-article table[border="1"], .categories {
  background-color: transparent !important;
  }
  #content-article table[border="1"] th {
