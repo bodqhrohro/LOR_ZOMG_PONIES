@@ -250,7 +250,7 @@
   height: 19px !important;
   background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/rainbow.gif) !important;
  }
- .userpic img {
+ .userpic img, .nav {
   border-radius: 4px;
  }
  .code, pre, code {
