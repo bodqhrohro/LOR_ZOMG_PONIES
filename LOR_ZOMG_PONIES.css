@@ -1,11 +1,13 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("www.linux.org.ru") {
- body{
+ body, html {
   background-color: #ffdfff !important;
   background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/background.jpg) !important;
   background-size: cover !important;
   background-attachment: fixed !important;
+ }
+ body {
   color: #000 !important;
  }
  #hd, table.head, body > footer, #ft, .nav, #query, h1, h1 a,
