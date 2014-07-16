@@ -3,7 +3,8 @@
 @-moz-document domain("www.linux.org.ru") {
  body, html {
   background-color: #ffdfff !important;
-  background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/background.jpg) !important;
+  /*background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/background.jpg) !important;*/
+  background-image: url(https://www.linux.org.ru/zomg_ponies/img/background.jpg) !important;
   background-size: cover !important;
   background-attachment: fixed !important;
  }
@@ -92,7 +93,8 @@
  
  #sitetitle:before, table.head a[href="/"]:before{
   display: inline-block !important;
-  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/twilight_logo.gif) no-repeat !important;
+  /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/twilight_logo.gif) no-repeat !important;*/
+  background: url(https://www.linux.org.ru/zomg_ponies/img/twilight_logo.gif) no-repeat !important;
   background-size: 32px !important;
   width: 32px !important;
   height: 32px !important;
@@ -250,7 +252,8 @@
  .penguin_progress span {
   background-repeat: repeat-x !important;
   height: 19px !important;
-  background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/rainbow.gif) !important;
+  /*background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/rainbow.gif) !important;*/
+  background-image: url(https://www.linux.org.ru/zomg_ponies/img/rainbow.gif) !important;
  }
  .userpic img, .nav {
   border-radius: 4px;
@@ -341,11 +344,13 @@
  height: 0px !important;
  padding-left: 280px !important;
  padding-top: 292px !important;
- background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;
+ /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;*/
+ background: url(https://www.linux.org.ru/zomg_ponies/img/pinkie_pie.png), no-repeat !important;
  }
  #ft:before{
   display: inline-block !important;
-  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/derpy.gif) no-repeat !important;
+  /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/derpy.gif) no-repeat !important;*/
+  background: url(https://www.linux.org.ru/zomg_ponies/img/derpy.gif) no-repeat !important;
   background-size: 70px !important;
   width: 70px !important;
   height: 70px !important;
@@ -381,7 +386,8 @@
  }
  @-moz-document url-prefix("https://www.linux.org.ru/books/"), url-prefix("http://www.linux.org.ru/books/") {
  html {
- background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/background.jpg) !important;
+ /*background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/background.jpg) !important;*/
+ background-image: url(https://www.linux.org.ru/zomg_ponies/img/background.jpg) !important;
  background-size: cover !important;
  background-attachment: fixed !important;
  }
