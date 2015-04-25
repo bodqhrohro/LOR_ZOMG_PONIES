@@ -271,8 +271,8 @@
  pre {
  padding: 0.5em !important;
  }
- .icon-tag, .stars{
-  color: #400040 !important;
+ .icon-tag, .stars, .icon-tag-color, .icon-user-color, .icon-pin-color {
+  color: #4f0f4f !important;
  }
  #content-article div, #content-article p, #content-article ol,
  #footer-logo, #footer-custom, .message, #items ol, #special, #login, #contents{
@@ -366,6 +366,7 @@
  .sign {
  margin-bottom: 0.5em !important;
  }
+}
  /* SPECIAL PAGES ZONE! ADD USUAL RULES BEFORE OR AFTER IT! */
  @-moz-document url("http://www.linux.org.ru/rules.jsp"), url("https://www.linux.org.ru/rules.jsp"), url("http://www.linux.org.ru/about"), url("https://www.linux.org.ru/about"), url("http://www.linux.org.ru/forum/"), url("https://www.linux.org.ru/forum/") {
  #bd {
@@ -384,6 +385,7 @@
  border-radius: 5px !important;
  }
  }
+	
  @-moz-document url-prefix("https://www.linux.org.ru/books/"), url-prefix("http://www.linux.org.ru/books/") {
  html {
  /*background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/background.jpg) !important;*/
@@ -401,5 +403,12 @@
  background: rgba(255,255,255,0.8) !important;
  }
  }
+@-moz-document regexp("https?://.*linux.org.ru/forum/.*/archive/"){
+	#bd {
+ background-color: rgba(255,255,255,0.7) !important;
+ color: #4f0f4f !important;
+ margin: 10px !important;
+ border-radius: 2px !important;
+ }
+ }
  /* SPECIAL PAGES ZONE ENDS! */
-}
