@@ -368,7 +368,7 @@
  }
 }
  /* SPECIAL PAGES ZONE! ADD USUAL RULES BEFORE OR AFTER IT! */
- @-moz-document url("http://www.linux.org.ru/rules.jsp"), url("https://www.linux.org.ru/rules.jsp"), url("http://www.linux.org.ru/about"), url("https://www.linux.org.ru/about"), url("http://www.linux.org.ru/forum/"), url("https://www.linux.org.ru/forum/"), url("http://www.linux.org.ru/help/"), url("https://www.linux.org.ru/help/") {
+ @-moz-document url("http://www.linux.org.ru/rules.jsp"), url("https://www.linux.org.ru/rules.jsp"), url("http://www.linux.org.ru/about"), url("https://www.linux.org.ru/about"), url("http://www.linux.org.ru/forum/"), url("https://www.linux.org.ru/forum/"), url-prefix("http://www.linux.org.ru/help/"), url-prefix("https://www.linux.org.ru/help/") {
  #bd {
  background-color: rgba(255,255,255,0.7) !important;
  color: #4f0f4f !important;
