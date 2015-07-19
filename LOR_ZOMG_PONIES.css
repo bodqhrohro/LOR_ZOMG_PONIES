@@ -13,7 +13,7 @@
  }
  #hd, table.head, body > footer, #ft, .nav, #query, h1, h1 a,
  #whois_userpic + div, #bd > ul, #bd > form, #bd > ol, #bd > h3,
- body > a[href="/"]:after, .ui-menu-item, #user-menu{
+ body > a[href="/"]:after, .ui-menu-item{
   background-color: rgba(255,255,255,0.7) !important;
   color: #4f0f4f !important;
   padding: 5px !important;
@@ -33,18 +33,13 @@
  #bd .nav li a {
  font-size: smaller !important;
  }
- #user-menu {
- padding-left: 0px !important;
- padding-right: 0px !important;
- border-radius: 3px !important;
- }
  a {
   text-decoration: underline;
  }
  a:hover{
   text-decoration: none !important;
  }
- a, .standardchange, .section-link{
+ a, .standardchange{
   color: #000040 !important;
  }
  h2, h3, h4, #whois_userpic{
@@ -151,7 +146,7 @@
  font-weight: bold !important;
  font-size: 1.6em !important;
  }
- article, .boxlet, #counter_block, .infoblock, #nav-menu, #contents, #toc, #p-lang, #category-index, .messages .msg, #warning-text, #tag-page-forum, fieldset, legend, #wiki-footer, #tag-page-news, #related-topics, .tags-first-letters{
+ article, .boxlet, .infoblock,  .messages .msg, #warning-text, #tag-page-forum, fieldset, legend, #tag-page-news, #related-topics, .tags-first-letters{
   background-color: rgba(255,255,255,0.9) !important;
   border-top-color: white !important;
   border-left-color: white !important;
@@ -274,10 +269,6 @@
  .icon-tag, .stars, .icon-tag-color, .icon-user-color, .icon-pin-color, .icon-reply-color {
   color: #4f0f4f !important;
  }
- #content-article div, #content-article p, #content-article ol,
- #footer-logo, #footer-custom, .message, #items ol, #special, #login, #contents{
-  color: #000 !important;
- }
  .user-remark{
   color: #400000 !important;
  }
@@ -333,12 +324,6 @@
  color: #400040 !important;
  font-size: 0.75em !important;
  }
- #content-article table[border="1"], .categories {
- background-color: transparent !important;
- }
- #content-article table[border="1"] th {
- background-color: #FFDDDD !important;
- }
  img[src="/img/good-penguin.jpg"]{
  width: 0px !important;
  height: 0px !important;
@@ -368,7 +353,7 @@
  }
 }
  /* SPECIAL PAGES ZONE! ADD USUAL RULES BEFORE OR AFTER IT! */
- @-moz-document url("http://www.linux.org.ru/rules.jsp"), url("https://www.linux.org.ru/rules.jsp"), url("http://www.linux.org.ru/about"), url("https://www.linux.org.ru/about"), url("http://www.linux.org.ru/forum/"), url("https://www.linux.org.ru/forum/"), url-prefix("http://www.linux.org.ru/help/"), url-prefix("https://www.linux.org.ru/help/") {
+ @-moz-document url("http://www.linux.org.ru/about"), url("https://www.linux.org.ru/about"), url("http://www.linux.org.ru/forum/"), url("https://www.linux.org.ru/forum/"), url-prefix("http://www.linux.org.ru/help/"), url-prefix("https://www.linux.org.ru/help/") {
  #bd {
  background-color: rgba(255,255,255,0.7) !important;
  color: #4f0f4f !important;
@@ -386,23 +371,6 @@
  }
  }
 	
- @-moz-document url-prefix("https://www.linux.org.ru/books/"), url-prefix("http://www.linux.org.ru/books/") {
- html {
- /*background-image: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/background.jpg) !important;*/
- background-image: url(https://www.linux.org.ru/zomg_ponies/img/background.jpg) !important;
- background-size: cover !important;
- background-attachment: fixed !important;
- }
- h1, h2, h3 {
- color: #4f0f4f !important;
- }
- body {
- color: #4f0f4f !important;
- margin: 0px !important;
- padding: 8px !important;
- background: rgba(255,255,255,0.8) !important;
- }
- }
 @-moz-document regexp("https?://.*linux.org.ru/forum/.*/archive/"){
 	#bd {
  background-color: rgba(255,255,255,0.7) !important;
