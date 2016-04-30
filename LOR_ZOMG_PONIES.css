@@ -13,7 +13,7 @@
  }
  #hd, table.head, body > footer, #ft, .nav, #query, h1, h1 a,
  #whois_userpic + div, #bd > ul, #bd > form, #bd > ol, #bd > h3,
- body > a[href="/"]:after, .ui-menu-item{
+ body > a[href="/"]:after, .ui-menu-item {
   background-color: rgba(255,255,255,0.7) !important;
   color: #4f0f4f !important;
   padding: 5px !important;
@@ -88,8 +88,8 @@
  
  #sitetitle:before, table.head a[href="/"]:before{
   display: inline-block !important;
-  /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/twilight_logo.gif) no-repeat !important;*/
-  background: url(https://www.linux.org.ru/zomg_ponies/img/twilight_logo.gif) no-repeat !important;
+  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/twilight_logo.gif) no-repeat !important;
+  /*background: url(https://www.linux.org.ru/zomg_ponies/img/twilight_logo.gif) no-repeat !important;*/
   background-size: 32px !important;
   width: 32px !important;
   height: 32px !important;
@@ -146,7 +146,7 @@
  font-weight: bold !important;
  font-size: 1.6em !important;
  }
- article, .boxlet, .infoblock,  .messages .msg, #warning-text, #tag-page-forum, fieldset, legend, #tag-page-news, #related-topics, .tags-first-letters{
+ article, .boxlet, .infoblock, .messages .msg, #warning-text, #tag-page-forum, fieldset, legend, #tag-page-news, #related-topics, .tags-first-letters{
   background-color: rgba(255,255,255,0.9) !important;
   border-top-color: white !important;
   border-left-color: white !important;
@@ -324,18 +324,26 @@
  color: #400040 !important;
  font-size: 0.75em !important;
  }
- img[src="/img/good-penguin.jpg"]{
+
+ #warning-logo {
+ background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;
+ width: 280px !important;
+ height: 292px !important;
+ }
+
+ img[src="/img/good-penguin.png"]{
+ visibility: hidden !important;
  width: 0px !important;
  height: 0px !important;
  padding-left: 280px !important;
  padding-top: 292px !important;
- /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;*/
- background: url(https://www.linux.org.ru/zomg_ponies/img/pinkie_pie.png), no-repeat !important;
+ background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;
+ /*background: url(https://www.linux.org.ru/zomg_ponies/img/pinkie_pie.png), no-repeat !important;*/
  }
  #ft:before{
   display: inline-block !important;
-  /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/derpy.gif) no-repeat !important;*/
-  background: url(https://www.linux.org.ru/zomg_ponies/img/derpy.gif) no-repeat !important;
+  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/derpy.gif) no-repeat !important;
+  /*background: url(https://www.linux.org.ru/zomg_ponies/img/derpy.gif) no-repeat !important;*/
   background-size: 70px !important;
   width: 70px !important;
   height: 70px !important;
@@ -370,7 +378,6 @@
  border-radius: 5px !important;
  }
  }
-	
 @-moz-document regexp("https?://.*linux.org.ru/forum/.*/archive/"){
 	#bd {
  background-color: rgba(255,255,255,0.7) !important;
