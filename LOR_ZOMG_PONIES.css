@@ -88,8 +88,8 @@
  
  #sitetitle:before, table.head a[href="/"]:before{
   display: inline-block !important;
-  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/twilight_logo.gif) no-repeat !important;
-  /*background: url(https://www.linux.org.ru/zomg_ponies/img/twilight_logo.gif) no-repeat !important;*/
+  /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/twilight_logo.gif) no-repeat !important;*/
+  background: url(https://www.linux.org.ru/zomg_ponies/img/twilight_logo.png) no-repeat !important;
   background-size: 32px !important;
   width: 32px !important;
   height: 32px !important;
@@ -326,7 +326,8 @@
  }
 
  #warning-logo {
- background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;
+ /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;*/
+ background: url(https://www.linux.org.ru/zomg_ponies/img/pinkie_pie.png), no-repeat !important;
  width: 280px !important;
  height: 292px !important;
  }
@@ -337,13 +338,13 @@
  height: 0px !important;
  padding-left: 280px !important;
  padding-top: 292px !important;
- background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;
+ /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/pinkie_pie.png), no-repeat !important;*/
  /*background: url(https://www.linux.org.ru/zomg_ponies/img/pinkie_pie.png), no-repeat !important;*/
  }
  #ft:before{
   display: inline-block !important;
-  background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/derpy.gif) no-repeat !important;
-  /*background: url(https://www.linux.org.ru/zomg_ponies/img/derpy.gif) no-repeat !important;*/
+  /*background: url(https://raw.github.com/bodqhrohro/LOR_ZOMG_PONIES/master/derpy.gif) no-repeat !important;*/
+  background: url(https://www.linux.org.ru/zomg_ponies/img/derpy.png) no-repeat !important;
   background-size: 70px !important;
   width: 70px !important;
   height: 70px !important;
